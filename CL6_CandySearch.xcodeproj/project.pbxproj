@@ -9,12 +9,26 @@
 /* Begin PBXBuildFile section */
 		702EA05A276D77CA008CA43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA059276D77CA008CA43B /* AppDelegate.swift */; };
 		702EA05C276D77CA008CA43B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA05B276D77CA008CA43B /* SceneDelegate.swift */; };
-		702EA05E276D77CA008CA43B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA05D276D77CA008CA43B /* ViewController.swift */; };
 		702EA061276D77CA008CA43B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702EA05F276D77CA008CA43B /* Main.storyboard */; };
 		702EA063276D77CB008CA43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702EA062276D77CB008CA43B /* Assets.xcassets */; };
 		702EA066276D77CB008CA43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702EA064276D77CB008CA43B /* LaunchScreen.storyboard */; };
 		702EA071276D77CB008CA43B /* CL6_CandySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA070276D77CB008CA43B /* CL6_CandySearchTests.swift */; };
 		702EA07C276D77CB008CA43B /* CL6_CandySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA07B276D77CB008CA43B /* CL6_CandySearchUITests.swift */; };
+		702EA08B276D782F008CA43B /* MainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA08A276D782F008CA43B /* MainSearchViewController.swift */; };
+		702EA08E276D78A1008CA43B /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA08D276D78A1008CA43B /* Candy.swift */; };
+		702EA091276D798E008CA43B /* ForCandy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA090276D798E008CA43B /* ForCandy.swift */; };
+		702EA094276D7B39008CA43B /* Candy Cane.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA093276D7B39008CA43B /* Candy Cane.png */; };
+		702EA096276D7B41008CA43B /* Caramel.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA095276D7B41008CA43B /* Caramel.png */; };
+		702EA098276D7B47008CA43B /* Chocolate Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA097276D7B47008CA43B /* Chocolate Bar.png */; };
+		702EA09A276D7B4C008CA43B /* Chocolate Chip.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA099276D7B4C008CA43B /* Chocolate Chip.png */; };
+		702EA09C276D7B54008CA43B /* Dark Chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA09B276D7B54008CA43B /* Dark Chocolate.png */; };
+		702EA09E276D7B5A008CA43B /* Gummi Bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA09D276D7B5A008CA43B /* Gummi Bear.png */; };
+		702EA0A0276D7B68008CA43B /* Jaw Breaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA09F276D7B68008CA43B /* Jaw Breaker.png */; };
+		702EA0A2276D7B72008CA43B /* Lollipop.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA0A1276D7B71008CA43B /* Lollipop.png */; };
+		702EA0A4276D7B77008CA43B /* Sour Chew.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA0A3276D7B77008CA43B /* Sour Chew.png */; };
+		702EA0A6276D7B80008CA43B /* Inline-Logo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 702EA0A5276D7B80008CA43B /* Inline-Logo.pdf */; };
+		702EA0A8276DAC8E008CA43B /* candyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 702EA0A7276DAC8E008CA43B /* candyLogo.png */; };
+		702EA0AA276DB5E6008CA43B /* ForNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EA0A9276DB5E6008CA43B /* ForNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +52,6 @@
 		702EA056276D77CA008CA43B /* CL6_CandySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CL6_CandySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702EA059276D77CA008CA43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		702EA05B276D77CA008CA43B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		702EA05D276D77CA008CA43B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		702EA060276D77CA008CA43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		702EA062276D77CB008CA43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702EA065276D77CB008CA43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		702EA077276D77CB008CA43B /* CL6_CandySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CL6_CandySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702EA07B276D77CB008CA43B /* CL6_CandySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6_CandySearchUITests.swift; sourceTree = "<group>"; };
 		702EA07D276D77CB008CA43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702EA08A276D782F008CA43B /* MainSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchViewController.swift; sourceTree = "<group>"; };
+		702EA08D276D78A1008CA43B /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		702EA090276D798E008CA43B /* ForCandy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCandy.swift; sourceTree = "<group>"; };
+		702EA093276D7B39008CA43B /* Candy Cane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Candy Cane.png"; sourceTree = "<group>"; };
+		702EA095276D7B41008CA43B /* Caramel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Caramel.png; sourceTree = "<group>"; };
+		702EA097276D7B47008CA43B /* Chocolate Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chocolate Bar.png"; sourceTree = "<group>"; };
+		702EA099276D7B4C008CA43B /* Chocolate Chip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chocolate Chip.png"; sourceTree = "<group>"; };
+		702EA09B276D7B54008CA43B /* Dark Chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark Chocolate.png"; sourceTree = "<group>"; };
+		702EA09D276D7B5A008CA43B /* Gummi Bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gummi Bear.png"; sourceTree = "<group>"; };
+		702EA09F276D7B68008CA43B /* Jaw Breaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jaw Breaker.png"; sourceTree = "<group>"; };
+		702EA0A1276D7B71008CA43B /* Lollipop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lollipop.png; sourceTree = "<group>"; };
+		702EA0A3276D7B77008CA43B /* Sour Chew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sour Chew.png"; sourceTree = "<group>"; };
+		702EA0A5276D7B80008CA43B /* Inline-Logo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Inline-Logo.pdf"; sourceTree = "<group>"; };
+		702EA0A7276DAC8E008CA43B /* candyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candyLogo.png; sourceTree = "<group>"; };
+		702EA0A9276DB5E6008CA43B /* ForNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +107,10 @@
 		702EA04D276D77CA008CA43B = {
 			isa = PBXGroup;
 			children = (
+				702EA092276D7B2E008CA43B /* Image */,
+				702EA08F276D7985008CA43B /* Utility */,
+				702EA08C276D789A008CA43B /* Model */,
+				702EA089276D7809008CA43B /* Controller */,
 				702EA058276D77CA008CA43B /* CL6_CandySearch */,
 				702EA06F276D77CB008CA43B /* CL6_CandySearchTests */,
 				702EA07A276D77CB008CA43B /* CL6_CandySearchUITests */,
@@ -101,7 +133,6 @@
 			children = (
 				702EA059276D77CA008CA43B /* AppDelegate.swift */,
 				702EA05B276D77CA008CA43B /* SceneDelegate.swift */,
-				702EA05D276D77CA008CA43B /* ViewController.swift */,
 				702EA05F276D77CA008CA43B /* Main.storyboard */,
 				702EA062276D77CB008CA43B /* Assets.xcassets */,
 				702EA064276D77CB008CA43B /* LaunchScreen.storyboard */,
@@ -126,6 +157,49 @@
 				702EA07D276D77CB008CA43B /* Info.plist */,
 			);
 			path = CL6_CandySearchUITests;
+			sourceTree = "<group>";
+		};
+		702EA089276D7809008CA43B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				702EA08A276D782F008CA43B /* MainSearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		702EA08C276D789A008CA43B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				702EA08D276D78A1008CA43B /* Candy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		702EA08F276D7985008CA43B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				702EA090276D798E008CA43B /* ForCandy.swift */,
+				702EA0A9276DB5E6008CA43B /* ForNavigationBar.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		702EA092276D7B2E008CA43B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				702EA099276D7B4C008CA43B /* Chocolate Chip.png */,
+				702EA097276D7B47008CA43B /* Chocolate Bar.png */,
+				702EA09D276D7B5A008CA43B /* Gummi Bear.png */,
+				702EA0A1276D7B71008CA43B /* Lollipop.png */,
+				702EA0A7276DAC8E008CA43B /* candyLogo.png */,
+				702EA0A5276D7B80008CA43B /* Inline-Logo.pdf */,
+				702EA09F276D7B68008CA43B /* Jaw Breaker.png */,
+				702EA0A3276D7B77008CA43B /* Sour Chew.png */,
+				702EA09B276D7B54008CA43B /* Dark Chocolate.png */,
+				702EA095276D7B41008CA43B /* Caramel.png */,
+				702EA093276D7B39008CA43B /* Candy Cane.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +306,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				702EA066276D77CB008CA43B /* LaunchScreen.storyboard in Resources */,
+				702EA09C276D7B54008CA43B /* Dark Chocolate.png in Resources */,
 				702EA063276D77CB008CA43B /* Assets.xcassets in Resources */,
 				702EA061276D77CA008CA43B /* Main.storyboard in Resources */,
+				702EA0A0276D7B68008CA43B /* Jaw Breaker.png in Resources */,
+				702EA09A276D7B4C008CA43B /* Chocolate Chip.png in Resources */,
+				702EA09E276D7B5A008CA43B /* Gummi Bear.png in Resources */,
+				702EA0A2276D7B72008CA43B /* Lollipop.png in Resources */,
+				702EA0A8276DAC8E008CA43B /* candyLogo.png in Resources */,
+				702EA0A6276D7B80008CA43B /* Inline-Logo.pdf in Resources */,
+				702EA0A4276D7B77008CA43B /* Sour Chew.png in Resources */,
+				702EA094276D7B39008CA43B /* Candy Cane.png in Resources */,
+				702EA096276D7B41008CA43B /* Caramel.png in Resources */,
+				702EA098276D7B47008CA43B /* Chocolate Bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				702EA05E276D77CA008CA43B /* ViewController.swift in Sources */,
 				702EA05A276D77CA008CA43B /* AppDelegate.swift in Sources */,
+				702EA08E276D78A1008CA43B /* Candy.swift in Sources */,
 				702EA05C276D77CA008CA43B /* SceneDelegate.swift in Sources */,
+				702EA091276D798E008CA43B /* ForCandy.swift in Sources */,
+				702EA08B276D782F008CA43B /* MainSearchViewController.swift in Sources */,
+				702EA0AA276DB5E6008CA43B /* ForNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
